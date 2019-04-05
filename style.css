@@ -1,0 +1,96 @@
+body {
+  display: flex;
+  justify-content: center;
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+  font-family: 'Quicksand', sans-serif; }
+
+.board {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  background-color: #e7e7e7;
+  width: 100%; }
+  .board h1 {
+    text-align: center;
+    font-size: 40px;
+    background-color: white; }
+  .board .create-column {
+    width: 150px;
+    text-align: center;
+    margin: 0 auto;
+    background-color: #aafdf2;
+    border: 2px solid black;
+    border-radius: 5px;
+    font-size: 20px;
+    padding: 5px; }
+
+.column-container {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto; }
+
+.column {
+  border-left: 2px solid black;
+  border-right: 2px solid black;
+  padding: 0 5px;
+  width: 200px;
+  margin: 20px 0;
+  position: relative; }
+  .column .column-title {
+    background-color: #c2e1ff;
+    margin: 0;
+    text-align: center;
+    line-height: 50px;
+    font-size: 25px; }
+  .column ul {
+    padding: 0; }
+    .column ul li {
+      text-decoration: none;
+      list-style-type: none; }
+      .column ul li .card {
+        position: relative;
+        border: 1px solid bisque;
+        border-radius: 7px;
+        background-color: #fdd7a9;
+        padding: 2px 5px;
+        margin: 3px;
+        font-size: 18px; }
+        .column ul li .card .btn-delete {
+          position: absolute;
+          top: 5px;
+          right: 5px;
+          font-size: 15px;
+          background-color: white;
+          border: 1px solid white;
+          border-radius: 5px;
+          color: black; }
+        .column ul li .card .card-description {
+          padding-right: 30px;
+          margin: 10px 0; }
+  .column .add-card {
+    width: 100px;
+    font-size: 15px;
+    border: 1px solid;
+    border-radius: 3px;
+    background-color: #f15353;
+    padding: 0; }
+  .column .btn-delete {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    font-size: 20px;
+    background-color: black;
+    border: 1px solid black;
+    border-radius: 5px;
+    color: white; }
+
+@media (max-width: 767px) {
+  body {
+    max-width: 760px; } }
+
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,117 @@
+
+
+body{
+   
+    display: flex;
+    justify-content: center;
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+    font-family: 'Quicksand', sans-serif;
+}
+.board{
+    h1{
+        text-align: center;
+        font-size: 40px;
+        background-color: white;
+    }
+    .create-column{
+        width: 150px;
+        text-align: center;
+        margin: 0 auto;
+        background-color: rgb(170, 253, 242);
+        border: 2px solid black;
+        border-radius: 5px;
+        font-size: 20px;
+        padding: 5px;
+      
+    }
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-color: rgb(231, 231, 231);
+    width: 100%;
+    
+}
+ .column-container{
+     display: flex;
+     justify-content: space-around;
+     flex-direction: row;
+     max-width: 1200px;
+     width: 100%;
+     margin: 0 auto;
+    
+ }
+
+ .column{
+     .column-title{
+         background-color: rgb(194, 225, 255);
+         
+         margin:0;
+         text-align: center;
+         line-height: 50px;
+         font-size: 25px;
+     }
+     ul{
+         li{
+            .card{
+             .btn-delete{
+                 position: absolute;
+                 top: 5px;
+                 right: 5px;
+                 font-size: 15px;
+                 background-color: white;
+                 border: 1px solid white;
+                 border-radius: 5px;
+                 color: black;
+            }
+             .card-description{
+                 padding-right: 30px;
+                 margin: 10px 0;
+             }
+             position: relative;
+             border: 1px solid bisque;
+             border-radius: 7px;
+             background-color: rgb(253, 215, 169);
+             padding: 2px 5px;
+             margin: 3px;
+             font-size: 18px;
+            }
+         text-decoration: none;
+         list-style-type: none;
+        }
+        padding: 0;
+    }
+     .add-card{
+         width: 100px;
+        
+         font-size: 15px;
+         border: 1px solid ;
+         border-radius: 3px;
+         background-color: rgb(241, 83, 83);
+         padding: 0;
+     }
+     .btn-delete{
+         position: absolute;
+         right: 10px;
+         top: 10px;
+         font-size: 20px;
+                 background-color: black;
+                 border: 1px solid black;
+                 border-radius: 5px;
+                 color: white;
+     }
+     border-left: 2px solid black;
+     border-right: 2px solid black;
+     padding: 0 5px;
+     width: 200px;
+     margin: 20px 0; 
+     position: relative;
+     
+     
+ }
+
+ @media (max-width: 767px){
+     body{
+         max-width: 760px;
+     }}
