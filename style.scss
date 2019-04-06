@@ -36,7 +36,8 @@ body{
  .column-container{
      display: flex;
      justify-content: space-around;
-     flex-direction: row;
+     flex-wrap: wrap;
+     
      max-width: 1200px;
      width: 100%;
      margin: 0 auto;
@@ -111,7 +112,3 @@ body{
      
  }
 
- @media (max-width: 767px){
-     body{
-         max-width: 760px;
-     }}
